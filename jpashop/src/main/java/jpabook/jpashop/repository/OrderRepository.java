@@ -2,6 +2,8 @@ package jpabook.jpashop.repository;
 
 import jakarta.persistence.EntityManager;
 import jpabook.jpashop.domain.Order;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
